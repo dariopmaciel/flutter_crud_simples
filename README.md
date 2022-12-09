@@ -1,14 +1,16 @@
-# CRUD SIMPLES using ChangeNotifier 
+# flutter_crud_simples
 
-About this new Flutter project.
+A new Flutter project.
 
-With this app, I try to learn about "MultiProvider" and "ChangeNotifierProvider" using inheritance, polymorphism, listView.
+## Getting Started
 
-Study done by Dario P Maciel.
-Project credits for Cod3r Cursos - Cadastro COMPLETO em Flutter! CRUD... Create, Read, Update e Delete.
+This project is a starting point for a Flutter application.
 
-re-started dez/08/22
+A few resources to get you started if this is your first Flutter project:
 
-![Captura de tela de 2022-12-08 15-45-39](https://user-images.githubusercontent.com/116087297/206542516-ab7de708-df43-4420-874d-4e21b791ae94.png)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

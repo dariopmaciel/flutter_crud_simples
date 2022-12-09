@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crud_simples/components/user_tile.dart';
-import 'package:flutter_crud_simples/models/user.dart';
 import 'package:flutter_crud_simples/provider/users.dart';
+import 'package:flutter_crud_simples/routs/app_routs.dart';
 import 'package:provider/provider.dart';
 
 class UserList extends StatelessWidget {
@@ -19,14 +19,30 @@ class UserList extends StatelessWidget {
         title: const Text("Lista de Usuários"),
         actions: <Widget>[
           IconButton(
-            onPressed: () {
-              users.put(User(
-                name: "Teste",
-                email: "Aluno@ddd.com.br",
-                avatarUrl: "",
-              ));
-            },
             icon: const Icon(Icons.add),
+            onPressed: () {
+              Navigator.of(context).pushNamed(AppRouts.USER_FORM);
+              //criado como exemplo
+              /*users.put(
+                const User(
+                  id: "",
+                  name: "Teste",
+                  email: "Aluno@ddd.com.br",
+                  avatarUrl: "",
+                ),
+              );*/
+              /*//deletado como exemplo
+              users.remove(users.byIndex(0));*/
+              /*//editado como exemplo
+              users.put(
+                User(
+                  id: "20",
+                  name: "Rafa",
+                  email: "Rafa@RAFA",
+                  avatarUrl: "",
+                ),
+              );*/
+            },
           ),
         ],
       ),
