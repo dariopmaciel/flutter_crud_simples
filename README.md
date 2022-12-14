@@ -1,8 +1,7 @@
-# flutter_crud_simples
-
+# flutter_crud
 About this new Flutter project.
 
-About this project, I tried to implement best practices, using Provider and Pop, in addition to creating a Simple CRUD for this. 
+I tried to implement best practices, using Provider and Pop, in addition to creating a CRUD for this. 
 Statefull wasn't purposely used in this project.
 
 Study done by Dario P Maciel.
