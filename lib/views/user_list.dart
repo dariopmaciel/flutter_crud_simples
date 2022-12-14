@@ -5,7 +5,7 @@ import 'package:flutter_crud_simples/routs/app_routs.dart';
 import 'package:provider/provider.dart';
 
 class UserList extends StatelessWidget {
-  const UserList({super.key});
+  UserList({super.key});
 
   @override
   Widget build(BuildContext context) {
