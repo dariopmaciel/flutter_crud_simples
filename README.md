@@ -1,4 +1,4 @@
-# flutter_crud
+# flutter_crud_simples
 About this new Flutter project.
 
 I tried to implement best practices, using Provider and Pop, in addition to creating a CRUD for this. 
